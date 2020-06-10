@@ -1,0 +1,23 @@
+.list-container {
+    align-self: self-end;
+    background-color: #ebecf0;
+    min-width: 270px;
+    max-width: 270px;
+    overflow: hidden;
+    border-radius:5px;
+    margin-right: 15px;
+
+}
+.list-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.list-title-container .title {
+    font-weight: 600;
+    font-size: 16px;
+}
+.list-title-container > .icon {
+    transform: rotate(-90deg);
+}

@@ -1,0 +1,61 @@
+.create-container {
+    min-width:270px;
+    max-width:270px;
+    height: max-content;
+    border-radius: 5px;
+}
+.create-container > svg:hover {
+    cursor: pointer;
+}
+.create-add-block {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ebecf0;
+}
+.crete-control-block {
+    display: flex;
+    align-items: center;
+}
+
+.crete-control-block  button {
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+    padding: 7px;
+    font-size: 9.5px;
+    box-shadow: none;
+}
+.crete-control-block svg {
+    cursor: pointer;
+}
+.addListTextArea {
+    resize: none;
+    width:100%;
+    overflow: hidden;
+    height: 0;
+    padding: 4px 9px;
+    max-height: 100px;
+}
+.addCardTextArea {
+    width:100%;
+    overflow: hidden;
+    max-width: 270px;
+    max-height: 100px;
+}
+.commonStyle {
+    width:270px;
+    border-radius: 3px;
+    padding: 7px 15px;
+    cursor: pointer;
+    opacity: 1 ;
+    display: flex;
+    align-items: center;
+    flex-shrink:0
+}
+.addList {
+    color: white ;
+    background-color: rgba(255,2555,255,0.24);
+}
+.addCard {
+    color:grey;
+}

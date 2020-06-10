@@ -1,0 +1,5 @@
+.main-content {
+    display: flex;
+    padding: 50px;
+    overflow-x: auto;
+}
